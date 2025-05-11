@@ -2,7 +2,7 @@
 
 ### Description
 
-Function to check the parameter for never type
+Function to check the parameter for "never" type
 
 ### How it to use
 
@@ -47,7 +47,7 @@ type CrazyComponentProps = {
 };
 ```
 
-Now typescript throws an error: "Argument of type '"select"' is not assignable to a parameter of type 'never'.ts(2345)". Perfect! ). Let's fix it:
+Now, typescript throws an error: "Argument of type '"select"' is not assignable to a parameter of type 'never'.ts(2345)". Perfect! ). Let's fix it:
 
 ```
 const CrazyComponent: React.FC<CrazyComponentProps> = ({
@@ -67,4 +67,4 @@ const CrazyComponent: React.FC<CrazyComponentProps> = ({
 };
 ```
 
-No errors, no forgotten cases. Seems is "never" useful ))
+No errors, no forgotten cases. Seem is "never" a useful ))
